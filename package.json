@@ -1,0 +1,24 @@
+{
+  "name": "football-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagar10111996/Football-Academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sagar10111996/Football-Academy/issues"
+  },
+  "homepage": "https://github.com/Sagar10111996/Football-Academy#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "mongoose": "^7.1.0"
+  }
+}
