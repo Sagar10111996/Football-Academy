@@ -1,13 +1,9 @@
-const resolvers = {
+const userResolvers = require('./users')
+
+module.exports = {
   Query: {
-    users() {
-      return [
-        {
-          id: 1,
-          name: 'John',
-          username: 'Doe'
-        }
-      ]
-    }
+  }, 
+  Mutation: {
+    ...userResolvers.Mutation
   }
 }
